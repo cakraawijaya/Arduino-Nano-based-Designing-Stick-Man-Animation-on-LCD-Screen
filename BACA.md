@@ -49,14 +49,20 @@ LCD berfungsi sebagai penampil karakter. Umumnya karakter yang ditampilkan itu b
 ## Rancangan Proyek
 <table>
 <tr>
-<th width="280">Diagram Blok</th>
-<th width="280">Diagram Ilustrasi</th>
-<th width="280">Pengkabelan</th>
+<th width="420">Diagram Blok</th>
+<th width="420">Diagram Ilustrasi</th>
 </tr>
 <tr>
 <td><img src="Assets/Documentation/Diagram/Block Diagram.jpg" alt="block-diagram"></td>
 <td><img src="Assets/Documentation/Diagram/Pictorial Diagram.jpg" alt="pictorial-diagram"></td>
-<td><img src="Assets/Documentation/Table/Device Wiring.jpg" alt="wiring"></td>
+</tr>
+</table>
+<table>
+<tr>
+<th width="840">Pengkabelan</th>
+</tr>
+<tr>
+<td><img src="Assets/Documentation/Table/Device Wiring.jpg" alt="device-wiring"></td>
 </tr>
 </table>
 
