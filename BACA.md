@@ -39,7 +39,7 @@ LCD berfungsi sebagai penampil karakter. Umumnya karakter yang ditampilkan itu b
    <table><tr><td width="810">
 
    ```
-   https://bit.ly/CH340_USB_Driver
+   https://bit.ly/CH340_USBdriver
    ```
 
    </td></tr></table>
