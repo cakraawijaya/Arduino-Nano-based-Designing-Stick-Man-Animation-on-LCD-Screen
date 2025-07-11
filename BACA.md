@@ -153,9 +153,9 @@ void loop() {
       Cara mengatur board ``` Arduino Nano ```
             
       </th></tr>
-      <tr><td>
+      <tr><td width="810">
          
-      Klik ``` Tools ``` -> ``` Board ``` -> ``` Arduino AVR Boards ``` -> ``` Arduino Nano ```
+      Pilih papan dengan mengklik: ``` Tools ``` -> ``` Board ``` -> ``` Arduino AVR Boards ``` -> ``` Arduino Nano ```
 
       </td></tr>
    </table><br>
