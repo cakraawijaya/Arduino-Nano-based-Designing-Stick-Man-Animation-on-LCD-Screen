@@ -153,9 +153,9 @@ void loop() {
       How to setup the ``` Arduino Nano ``` board
             
       </th></tr>
-      <tr><td>
+      <tr><td width="810">
       
-      Click ``` Tools ``` -> ``` Board ``` -> ``` Arduino AVR Boards ``` -> ``` Arduino Nano ```
+      Select a board by clicking: ``` Tools ``` -> ``` Board ``` -> ``` Arduino AVR Boards ``` -> ``` Arduino Nano ```
 
       </td></tr>
    </table><br>
