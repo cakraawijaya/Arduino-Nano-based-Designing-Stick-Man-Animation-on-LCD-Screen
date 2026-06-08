@@ -304,7 +304,7 @@ void loop() {
   Serial.println(" seconds.");
 
   // Baris kosong
-  Serial.println();
+  Serial.println("\n");
 
   // Menunggu selama 5 detik sebelum scan ulang
   delay(SCAN_INTERVAL);
