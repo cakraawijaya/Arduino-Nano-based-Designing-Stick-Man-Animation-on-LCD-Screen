@@ -174,23 +174,30 @@ void setup() {
   // Memulai komunikasi Serial dengan baud rate 115200
   Serial.begin(115200);
 
-  // Menunggu Serial Monitor siap
-  // Berguna pada beberapa board seperti Arduino Leonardo dan ESP32 tertentu
-  while (!Serial);
+  // Mengecek apakah board menggunakan USB native
+  // Contoh: Arduino Leonardo, Arduino Micro, beberapa ESP32-S2/S3
+  #if defined(USBCON) || defined(ARDUINO_USB_CDC_ON_BOOT)
+
+    // Jika iya, maka:
+    // Program akan menunggu sampai Serial Monitor terhubung sebelum melanjutkan eksekusi program
+    while (!Serial);
+
+  #endif
+
+  // Menunggu selama 2 detik sebelum program dimulai
+  delay(2000);
+
+  // Menampilkan header program
+  Serial.println("====================================");
+  Serial.println("         I2C DEVICE SCANNER         ");
+  Serial.println("by: Devan Cakra Mudra Wijaya, S.Kom.");
+  Serial.println("====================================");
+
+  // Mencetak baris kosong
+  Serial.println();
 
   // Menginisialisasi komunikasi I2C
   initI2C();
-
-  // Mencetak baris kosong
-  Serial.println();
-
-  // Menampilkan header program
-  Serial.println("================================");
-  Serial.println("        I2C DEVICE SCANNER      ");
-  Serial.println("================================");
-
-  // Mencetak baris kosong
-  Serial.println();
 }
 
 
@@ -208,9 +215,9 @@ void loop() {
   uint8_t deviceCount = 0;
 
   // Menampilkan informasi bahwa proses scan dimulai
-  Serial.println("--------------------------------");
+  Serial.println("------------------------------------");
   Serial.println("Scanning I2C bus...");
-  Serial.println("--------------------------------");
+  Serial.println("------------------------------------");
 
   // Melakukan perulangan dari alamat 1 sampai 126
   // Alamat I2C valid adalah 0x01 sampai 0x7E
@@ -233,8 +240,8 @@ void loop() {
       // Menampilkan informasi device ditemukan
       Serial.print("[FOUND] Device at address 0x");
 
-      // Jika alamat kurang dari 16
-      // tambahkan angka 0 di depan agar format HEX rapi
+      // Jika alamat kurang dari 16, maka:
+      // Tambahkan angka 0 di depan agar format HEX rapi
       if (address < 16) {
         Serial.print("0");
       }
@@ -252,8 +259,8 @@ void loop() {
       // Menampilkan pesan error
       Serial.print("[ERROR] Unknown error at address 0x");
 
-      // Jika alamat kurang dari 16
-      // tambahkan angka 0 di depan agar format HEX rapi
+      // Jika alamat kurang dari 16, maka:
+      // Tambahkan angka 0 di depan agar format HEX rapi
       if (address < 16) {
         Serial.print("0");
       }
