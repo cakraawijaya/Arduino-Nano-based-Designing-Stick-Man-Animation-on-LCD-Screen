@@ -89,6 +89,8 @@ LCD functions as a character viewer. Generally, the characters displayed are in 
 <br><br>
 
 ## Scanning the I2C Address on the LCD
+<table><tr><td width="840">
+
 ```ino
 /*
   =====================================================
@@ -308,7 +310,7 @@ void loop() {
 }
 ```
 
-<br><br>
+</td></tr></table><br><br>
 
 ## Arduino IDE Setup
 1. Open the ``` Arduino IDE ``` first, then open this project by clicking ``` File ``` -> ``` Open ``` : 
