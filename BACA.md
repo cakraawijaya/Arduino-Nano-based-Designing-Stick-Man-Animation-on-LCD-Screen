@@ -89,6 +89,8 @@ LCD berfungsi sebagai penampil karakter. Umumnya karakter yang ditampilkan itu b
 <br><br>
 
 ## Memindai Alamat I2C Yang Ada Pada LCD
+<table><tr><td width="840">
+
 ```ino
 /*
   =====================================================
@@ -308,7 +310,7 @@ void loop() {
 }
 ```
 
-<br><br>
+</td></tr></table><br><br>
 
 ## Pengaturan Arduino IDE
 1. Buka ``` Arduino IDE ``` terlebih dahulu, kemudian buka proyek ini dengan cara klik ``` File ``` -> ``` Open ``` : 
