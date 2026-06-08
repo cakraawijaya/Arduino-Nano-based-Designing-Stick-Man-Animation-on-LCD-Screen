@@ -291,9 +291,6 @@ void loop() {
     Serial.println(deviceCount);
   }
 
-  // Empty line for cleaner output
-  Serial.println();
-
   // Display information about the next scan
   Serial.print("Next scan in ");
 
