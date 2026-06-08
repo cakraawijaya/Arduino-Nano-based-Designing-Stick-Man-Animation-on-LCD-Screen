@@ -291,9 +291,6 @@ void loop() {
     Serial.println(deviceCount);
   }
 
-  // Baris kosong agar output lebih rapi
-  Serial.println();
-
   // Menampilkan informasi waktu scan berikutnya
   Serial.print("Next scan in ");
 
