@@ -13,7 +13,7 @@ LCD functions as a character viewer. Generally, the characters displayed are in 
 | Part | Description |
 | --- | --- |
 | Development Board | Arduino Nano V3 |
-| Code Editor | Arduino IDE |
+| Code Editor | Arduino IDE 1.8.19 (Stable Legacy Version) |
 | Driver | CH340 USB Driver |
 | Communications Protocol | Inter Integrated Circuit (I2C) |
 | Programming Language | C/C++ |
