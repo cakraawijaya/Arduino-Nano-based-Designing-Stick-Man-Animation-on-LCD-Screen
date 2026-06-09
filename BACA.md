@@ -17,7 +17,7 @@ LCD berfungsi sebagai penampil karakter. Umumnya karakter yang ditampilkan itu b
 | Driver | CH340 USB Driver |
 | Protokol Komunikasi | Inter Integrated Circuit (I2C) |
 | Bahasa Pemrograman | C/C++ |
-| Pustaka Arduino | LiquidCrystal_I2C |
+| Pustaka Arduino | LiquidCrystal_I2C oleh Frank de Brabander (Versi: 1.1.2) |
 | Layar | LCD I2C (x1) |
 | Komponen Lainnya | • Kabel USB Mini - USB tipe A (x1)<br>• Kabel jumper (1 set) |
 
