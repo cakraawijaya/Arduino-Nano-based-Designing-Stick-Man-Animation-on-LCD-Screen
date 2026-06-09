@@ -17,7 +17,7 @@ LCD functions as a character viewer. Generally, the characters displayed are in 
 | Driver | CH340 USB Driver |
 | Communications Protocol | Inter Integrated Circuit (I2C) |
 | Programming Language | C/C++ |
-| Arduino Library | LiquidCrystal_I2C |
+| Arduino Library | LiquidCrystal_I2C by Frank de Brabander (Version: 1.1.2) |
 | Display | LCD I2C (x1) |
 | Other Components | • Mini USB cable - USB type A (x1)<br>• Jumper cable (1 set) |
 
